@@ -1,0 +1,78 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('fondos/Fondo2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-position-x: 870px;
+    background-size: 370px;
+    
+}
+
+
+
+header{
+    text-align: center;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    border-style: double;
+    margin: 20px;
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: left;
+}
+.img3{
+    float: left;
+}
+.img4{
+    float: left;
+}
+.img5{
+    float: left;
+}
+.img6{
+    float: left;
+}
+.img7{
+    float: left;
+}
+
+div{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+
+.d2{
+    width: 50%;
+    border: ridge 10px;
+}
+
+br{
+    clear: both;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduccion{
+    font-size: large;
+    margin-left: 0;
+}
+
+.pagina2{
+    font-size: large;
+    margin-left: 800px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 150px;
+    margin-left: 350px;
+    width: 700px;
+    height: 250px;
+    position: center;
+    text-align: center;
+}
+
+header{
+    margin: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+}
+
+.Menu{
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin: 5px;
+    border:  black 1px solid;
+    float: left;
+}
+
+img{
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    display: block;
+    position: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: black;
+}
+
+.Menu:hover{
+    margin-bottom: 20px;
+    margin-top: -20px;
+    transition: 0.8s;
+    background-color: rgba(194, 128, 194, 0.315);
+}
+
+body{
+    background-image: url('fondos/Fondo1.png');
+    background-attachment: fixed;
+    background-position: right;
+    background-position-x: 870px;
+    background-size: 200px;
+}
